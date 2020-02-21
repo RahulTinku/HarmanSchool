@@ -1,0 +1,38 @@
+<!-- give 100% height to content -->
+<div class="main h-100 bg">
+  <div class="section h-100">
+    <div class="container h-100">
+      <!-- make sure content is center aligned vertically and horizontally -->
+      <div class="row h-100 justify-content-center align-items-center">
+        <!-- for teacher display message -->
+        <div class="col-sm-12 header">
+          <div>
+           <h1>Our Teachers</h1>
+          </div>
+          <div class="textColDiv">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <br>
+            veniam, quis nostrud exercitation ullamco laboris nisi ut!
+          </div>
+        </div>
+        <!-- for individual cards to display teachers -->
+        <div class="col-sm-12 cardsDiv">
+          <div class="row card-deck text-center">
+            <div class="col-4"  *ngFor="let d of data">
+              <div class="card img-wrapper">
+                <div class="imgDiv">
+                  <img src={{d.teacherImg}} class="card-img-top img-overlay" alt="...">
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">{{d.name}}</h4>
+                  <h5>{{d.subject}} Teacher</h5>
+                <p class="card-text">{{d.desc}}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

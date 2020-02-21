@@ -1,0 +1,5 @@
+{
+   "programImg": "../../assets/program.svg",
+   "numOfYearlyGrads": 22931,
+   "numOfUniversity": 150
+}

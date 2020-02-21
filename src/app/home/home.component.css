@@ -1,0 +1,36 @@
+/* signup view */
+.signup{
+    margin: 0 auto;
+    width: 400px;
+    height: 350px;
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+}
+.signupcontent{
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    margin-top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+/* text color for page */
+.main{
+    color: white;
+}
+/* button corners and color */
+.s{
+    border-radius: 25px;
+    background-color: rgb(83, 58, 224);
+}
+h3 { 
+    font-weight:300;
+ }
+.bg{
+    background: rgb(3, 3, 3,0.6);
+}
+.description{
+    color: rgb(192, 188, 188);
+}

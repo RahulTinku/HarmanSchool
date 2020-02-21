@@ -1,0 +1,29 @@
+[
+   {
+      "courseImg": "../../assets/course_2.jpg",
+      "numOfLessons": 4,
+      "courseDuration": "12 Weeks",
+      "courseFee": "$99",
+      "title": "Logo Design Course",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "numRequests": 2
+   },
+   {
+      "courseImg": "../../assets/course_2.jpg",
+      "numOfLessons": 4,
+      "courseDuration": "12 Weeks",
+      "courseFee": "$99",
+      "title": "JS Programing Language",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "numRequests": 2
+   },
+   {
+      "courseImg": "../../assets/course_1.jpg",
+      "numOfLessons": 4,
+      "courseDuration": "12 Weeks",
+      "courseFee": "$99",
+      "title": "Study law of Physics",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "numRequests": 2
+   }
+]

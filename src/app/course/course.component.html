@@ -1,0 +1,36 @@
+<div class="main h-100 bg">
+  <div class="section h-100">
+    <div class="container h-100">
+      <!-- align items to be in vertically and horizontally center -->
+      <div class="row h-100 justify-content-center align-items-center">
+        <div class="course">Courses</div>
+        <!-- create cards deck -->
+          <div class="row card-deck">
+            <!-- iterate ofer data and generate cards -->
+            <div class="col-4"  *ngFor="let d of data">
+                <div class="card">
+                  <img src={{d.courseImg}} class="card-img-top" alt="...">
+                  <a href="#" class="btn btn-primary img-overlay">{{d.courseFee}}</a>
+                  <div class="card-body">
+                    <div><small><fa-icon [icon]="faClock"></fa-icon>&nbsp;{{d.numOfLessons}} Lessons/{{d.courseDuration}}</small></div>
+                    <br>
+                    <h5 class="card-title">{{d.title}}</h5>
+                    <p class="card-text">{{d.desc}}</p>
+                  </div>
+                  <div class="card-footer">
+                    <div class="row">
+                      <div class="col-sm-10">
+                        <small class="text-muted"><fa-icon [icon]="faUsers"></fa-icon>&nbsp;2,193 students</small>
+                      </div>
+                      <div class="col-sm-2 comment">
+                        <small class="text-muted"><fa-icon [icon]="faComment"></fa-icon>2</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

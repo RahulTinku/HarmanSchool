@@ -1,0 +1,53 @@
+/* background of the page */
+.bg{
+    background: linear-gradient(to bottom, rgb(242, 242, 242) 0%, white 100%);
+    /* background-color: white; */
+}
+/* align and keep all items in center */
+.header{
+    text-align: center;
+    margin: auto 0;
+}
+/* give color to div */
+.textColDiv{
+    color: rgb(151, 148, 148);
+}
+/* manipulate bold for h1 tag */
+h1{
+    font-weight: 800;
+}
+/* create wrapper for image box */
+.img-wrapper{
+    position: relative;
+}
+/* diplay button overlaying image and text in card */
+.img-overlay {
+    position: absolute;
+    top: -20%;
+    bottom: 20%;
+    left: 20%;
+    right: 0;
+    text-align: center;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+/* fix height and width of image */
+.imgDiv{
+    width: auto;
+    height: 150px;
+}
+/* change color of card text */
+.card-text{
+    color: rgb(165, 161, 161);
+}
+/* change color and bold property of h5 */
+h5{
+    font-weight: 400;
+    color: lightgray;
+}
+/* change color and bold property of h4 */
+h4{
+    font-weight: 400;
+    color: rgb(71, 68, 68);
+}

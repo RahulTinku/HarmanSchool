@@ -1,0 +1,25 @@
+/* set background color */
+.bg{
+    background-color: rgb(240, 240, 240);
+}
+/* form should take only 50% of avilable space */
+.formWidth{
+    width: 50%;
+}
+/* add extra padding in send message button */
+.addPadding{
+    padding: 0 60px;
+    color: white;
+}
+/* send message button */
+.sendMessage{
+    width: 50%;
+    border-radius: 25px;
+    background-color: rgb(117, 96, 236);
+}
+h1{
+    font-weight: 800;
+}
+p{
+    color: rgb(167, 163, 163);
+}

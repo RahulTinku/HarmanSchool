@@ -1,0 +1,59 @@
+<div class="main h-100 bg">
+  <div class="section h-100">
+    <div class="container h-100">
+      <!-- keep content vertically and horizontally center -->
+      <div class="row h-100 justify-content-center align-items-center">
+        <div class="col-md-6 mr-auto ml-auto">
+            <h2 class="title">Learn From The Expert</h2>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="col-md-6 mr-auto ml-auto">
+          <div class="signup">
+            <div class="signupcontent">
+              <!-- form for user signup -->
+              <form name="form" (ngSubmit)="f.form.valid && onSubmit()" #f="ngForm" novalidate>
+                <div class="form-group">
+                  <h3>Sign Up</h3>
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" placeholder="Email Address" 
+                  name="email" [(ngModel)]="model.email" #email="ngModel" 
+                  [ngClass]="{ 'is-invalid': f.submitted && email.invalid }" required email >
+                  <div *ngIf="f.submitted && email.invalid" class="invalid-feedback">
+                    <div *ngIf="email.errors.required">Email is required</div>
+                    <div *ngIf="email.errors.email">Email must be a valid email address</div>
+                </div>
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control" placeholder="Password" name="password" 
+                  [(ngModel)]="model.password" #password="ngModel" 
+                  [ngClass]="{ 'is-invalid': f.submitted && password.invalid }" required minlength="8">
+                  <div *ngIf="f.submitted && password.invalid" class="invalid-feedback">
+                    <div *ngIf="password.errors.required">Password is required</div>
+                    <div *ngIf="password.errors.minlength">Password must be at least 8 characters</div>
+                </div>
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control" placeholder="Re-Type Password" name="confirmPassword" 
+                  [(ngModel)]="model.confirmPassword" #confirmPassword="ngModel" appConfirmEqualValidator="password"
+                  [ngClass]="{ 'is-invalid': f.submitted && confirmPassword.invalid }" 
+                  required>
+                  <div *ngIf="f.submitted && confirmPassword.invalid" class="invalid-feedback">
+                    <div *ngIf="confirmPassword.errors.required && confirmPassword.touched">Confirm password is required</div>
+                    <div *ngIf="confirmPassword.errors?.notEqual && confirmPassword.touched && !confirmPassword.errors.required ">Password and Confirm Password does not match</div>
+                </div>
+                </div>
+                <button type="submit" class="btn btn-primary s">SIGN UP</button>
+                <div *ngIf="isValid" class="alert alert-success alert-dismissible fade show">
+                  <button type="button" class="close" data-dismiss="alert">&times;</button>
+                  <strong>Registration Success!</strong>
+                </div>
+              </form>
+              <!-- form ends -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,54 @@
+/* add background color to page */
+.bg{
+    background: linear-gradient(to bottom, rgb(242, 242, 242) 0%, white 100%);
+    /* background-color: white; */
+}
+/* assign width and height  */
+.program{
+    width: 550px;
+    height: 550px;
+}
+/* center align */
+.header{
+    text-align: center;
+    margin: auto 0;
+}
+/* manipulate image position */
+.imageClass{
+    margin: 0 auto;
+    text-align: center;
+}
+/* manipulate content position */
+.content{
+    margin: auto;
+    text-align: left;
+}
+.contect{
+    max-width: 300px;
+}
+/* change defalut bold behaviour of h */
+h1{
+    font-weight: 800;
+}
+h4{
+    font-weight: 400;
+}
+/* add color and make it round for icons */
+i{
+ background-color:  rgb(108, 108, 231);
+ color: white;
+ border-radius: 50%;
+ border: 1x solid grey;
+ padding:5px;
+}
+.addPadding{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* give text colors */
+.textCol{
+    color: rgb(108, 108, 231);
+}
+.textColDiv{
+    color: rgb(151, 148, 148);
+}

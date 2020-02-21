@@ -1,0 +1,43 @@
+/* set brand size and weight */
+.navbar .navbar-header .navbar-brand{
+    padding : 0 35px;
+    font-size: 24px;
+    font-weight: 800;
+}
+/* change behaviour of navigation items */
+nav div ul li a {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 20px;
+}
+/* append class when one link is active */
+.Active{
+    border-bottom: 3px solid rgb(79, 48, 216);
+}
+.ActiveHome{
+    border-bottom: 3px solid white;
+}
+/* contact button */
+.contact{
+    padding: 10px;
+    border-radius: 25px;
+    background-color: rgb(83, 58, 224);
+}
+/* keep font beautiful for contact us */
+.con{
+    font-size: 16px !important;
+    color: white;
+}
+/* change color of contact us button when active */
+.contactActive{
+    background-color: rgb(11, 11, 230);
+    border-radius: 25px;
+}
+/* add shadow to nvaigation bar */
+.addShadow{
+    border-bottom: 1px solid rgb(223, 221, 221);
+    box-shadow: 5px 10px 8px 10px #888888;
+}
+.addBackground{
+    background: rgb(3, 3, 3,0.6);
+}

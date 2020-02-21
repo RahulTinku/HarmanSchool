@@ -1,0 +1,20 @@
+[
+   {
+      "teacherImg": "../../assets/teacher_1.jpg",
+      "name": "Benjamin Stone",
+      "subject": "Physics",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+   },
+   {
+      "teacherImg": "../../assets/teacher_2.jpg",
+      "name": "Katleen Stone",
+      "subject": "Physics",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+   },
+   {
+      "teacherImg": "../../assets/teacher_3.jpg",
+      "name": "Sadie White",
+      "subject": "Physics",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+   }
+]

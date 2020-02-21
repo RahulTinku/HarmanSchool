@@ -1,0 +1,38 @@
+<!-- give 100% height to content -->
+<div class="main h-100 bg">
+  <div class="contanier h-100">
+    <div class="row h-100" *ngIf="data">
+      <!-- display content -->
+      <div class="col-md-12 header">
+          <div>
+           <h1>Our Programs</h1>
+          </div>
+          <div class="textColDiv">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br>
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+            Ut enim ad minim veniam
+          </div>
+      </div>
+      <!-- place image and content next to each other -->
+      <div class="col-md-7 imageClass">
+        <img src={{data.programImg}} class="program">
+      </div>
+      <div class="col-md-5 content">
+        <div class="contect addPadding">
+          <h4>We Are Excellent In Education</h4>
+          <div class="addPadding textColDiv">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+          </div>
+          <div class="addPadding">
+            <i><fa-icon [icon]="faGraduationCap"></fa-icon></i>&nbsp;&nbsp;
+            <span class="textCol">{{data.numOfYearlyGrads}} Yearly Graduates</span>
+          </div>
+          <div class="addPadding">
+            <i><fa-icon [icon]="faUniversity"></fa-icon></i>&nbsp;&nbsp;
+            <span class="textCol">{{data.numOfUniversity}} University Worldwide</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,41 @@
+/* add background color */
+.bg{
+    background: linear-gradient(to bottom, rgb(108, 108, 231) 50%, white 50%);
+}
+/* wrap image header */
+.img-wrapper{
+    position: relative;
+}
+.img-overlay {
+    position: absolute;
+    top: 190px;
+    bottom: 240px;
+    left: 270px;
+    right: 0;
+    text-align: center;
+}
+/* comment color */
+.comment{
+    border-left: 1px solid  rgb(192, 188, 188);
+}
+.course{
+    margin:0;
+    padding: 0;
+    color: white;
+    font-weight: 800;
+    font-size: 38px;
+}
+h5{
+    color: rgb(134, 134, 235);
+}
+p , small {
+    color: rgb(192, 188, 188);
+}
+/* no border for cards */
+.card{
+    border: none
+}
+/* add border for card footer */
+.card-footer{
+    border-bottom: 1px solid lightgray;
+}
